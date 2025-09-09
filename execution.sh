@@ -13,17 +13,15 @@ YAML_CONFIG_FILE=$1
 FILENAME=$(basename "$YAML_CONFIG_FILE" .yaml)
 OUTPUT_FILE="results_${FILENAME}.txt"
 
-PIR_START=0.01
-PIR_STEP=0.01
-PIR_END=0.20
+PIR_LIST="0.005 0.01 0.02 0.03 0.05"
 
 rm -f "$OUTPUT_FILE"
 touch "$OUTPUT_FILE"
 
-for pir in $(seq $PIR_START $PIR_STEP $PIR_END)
+for pir in $PIR_LIST 
 do
     echo "--------------------------------------------------" | tee -a "$OUTPUT_FILE"
-    printf "\n------------RUNNING FOR PIR = %.2f--------------\n" "$pir" | tee -a "$OUTPUT_FILE"
+    printf "\n------------RUNNING FOR PIR = %.3f------------\n" "$pir" | tee -a "$OUTPUT_FILE"
     echo "--------------------------------------------------" | tee -a "$OUTPUT_FILE"
 
     "$NOXIM_BINARY_PATH" -config "$YAML_CONFIG_FILE" -pir "$pir" "poisson" >> "$OUTPUT_FILE"
