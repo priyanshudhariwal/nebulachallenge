@@ -9,23 +9,23 @@
 Catania V., Mineo A., Monteleone S., Palesi M., and Patti D. (2016) Cycle-Accurate Network on Chip Simulation with Noxim. ACM Trans. Model. Comput. Simul. 27, 1, Article 4 (August 2016), 25 pages. DOI: https://doi.org/10.1145/2953878
 
 
-Loading configuration from file "small_world.yaml"... Done
+Loading configuration from file "double_buffers.yaml"... Done
 Loading power configurations from file "power.yaml"... Done
 Reset for 1000 cycles...  done! 
  Now running for 50000 cycles...
 Noxim simulation completed. (51000 cycles executed)
 
-% Total received packets: 7213
-% Total received flits: 57691
-% Received/Ideal flits Ratio: 1.00158
+% Total received packets: 7230
+% Total received flits: 43486
+% Received/Ideal flits Ratio: 1.00662
 % Average wireless utilization: 0
-% Global average delay (cycles): 13.2886
-% Max delay (cycles): 95
-% Network throughput (flits/cycle): 1.28202
-% Average IP throughput (flits/cycle/IP): 0.0400632
-% Total energy (J): 0.000129587
-% 	Dynamic energy (J): 4.52281e-06
-% 	Static energy (J): 0.000125064
+% Global average delay (cycles): 11.5329
+% Max delay (cycles): 80
+% Network throughput (flits/cycle): 0.966356
+% Average IP throughput (flits/cycle/IP): 0.0301986
+% Total energy (J): 0.000918125
+% 	Dynamic energy (J): 4.43305e-06
+% 	Static energy (J): 0.000913692
 ../noxim/noxim/bin/noxim--------------------------------------------------
 
 ------------RUNNING FOR PIR = 0.010------------
@@ -37,23 +37,23 @@ Noxim simulation completed. (51000 cycles executed)
 Catania V., Mineo A., Monteleone S., Palesi M., and Patti D. (2016) Cycle-Accurate Network on Chip Simulation with Noxim. ACM Trans. Model. Comput. Simul. 27, 1, Article 4 (August 2016), 25 pages. DOI: https://doi.org/10.1145/2953878
 
 
-Loading configuration from file "small_world.yaml"... Done
+Loading configuration from file "double_buffers.yaml"... Done
 Loading power configurations from file "power.yaml"... Done
 Reset for 1000 cycles...  done! 
  Now running for 50000 cycles...
 Noxim simulation completed. (51000 cycles executed)
 
-% Total received packets: 14357
-% Total received flits: 114855
-% Received/Ideal flits Ratio: 0.997005
+% Total received packets: 14468
+% Total received flits: 87238
+% Received/Ideal flits Ratio: 1.0097
 % Average wireless utilization: 0
-% Global average delay (cycles): 18.2925
-% Max delay (cycles): 175
-% Network throughput (flits/cycle): 2.55233
-% Average IP throughput (flits/cycle/IP): 0.0797604
-% Total energy (J): 0.000134022
-% 	Dynamic energy (J): 8.95759e-06
-% 	Static energy (J): 0.000125064
+% Global average delay (cycles): 13.4184
+% Max delay (cycles): 117
+% Network throughput (flits/cycle): 1.93862
+% Average IP throughput (flits/cycle/IP): 0.0605819
+% Total energy (J): 0.000922534
+% 	Dynamic energy (J): 8.84204e-06
+% 	Static energy (J): 0.000913692
 ../noxim/noxim/bin/noxim--------------------------------------------------
 
 ------------RUNNING FOR PIR = 0.020------------
@@ -65,23 +65,23 @@ Noxim simulation completed. (51000 cycles executed)
 Catania V., Mineo A., Monteleone S., Palesi M., and Patti D. (2016) Cycle-Accurate Network on Chip Simulation with Noxim. ACM Trans. Model. Comput. Simul. 27, 1, Article 4 (August 2016), 25 pages. DOI: https://doi.org/10.1145/2953878
 
 
-Loading configuration from file "small_world.yaml"... Done
+Loading configuration from file "double_buffers.yaml"... Done
 Loading power configurations from file "power.yaml"... Done
 Reset for 1000 cycles...  done! 
  Now running for 50000 cycles...
 Noxim simulation completed. (51000 cycles executed)
 
-% Total received packets: 0
-% Total received flits: 0
-% Received/Ideal flits Ratio: 0
-% Average wireless utilization: nan
-% Global average delay (cycles): nan
-% Max delay (cycles): -1
-% Network throughput (flits/cycle): 0
-% Average IP throughput (flits/cycle/IP): 0
-% Total energy (J): 0.000127176
-% 	Dynamic energy (J): 2.11132e-06
-% 	Static energy (J): 0.000125064
+% Total received packets: 28733
+% Total received flits: 171995
+% Received/Ideal flits Ratio: 0.995341
+% Average wireless utilization: 0
+% Global average delay (cycles): 22.2231
+% Max delay (cycles): 243
+% Network throughput (flits/cycle): 3.82211
+% Average IP throughput (flits/cycle/IP): 0.119441
+% Total energy (J): 0.00093131
+% 	Dynamic energy (J): 1.76185e-05
+% 	Static energy (J): 0.000913692
 ../noxim/noxim/bin/noxim--------------------------------------------------
 
 ------------RUNNING FOR PIR = 0.030------------
@@ -93,23 +93,23 @@ Noxim simulation completed. (51000 cycles executed)
 Catania V., Mineo A., Monteleone S., Palesi M., and Patti D. (2016) Cycle-Accurate Network on Chip Simulation with Noxim. ACM Trans. Model. Comput. Simul. 27, 1, Article 4 (August 2016), 25 pages. DOI: https://doi.org/10.1145/2953878
 
 
-Loading configuration from file "small_world.yaml"... Done
+Loading configuration from file "double_buffers.yaml"... Done
 Loading power configurations from file "power.yaml"... Done
 Reset for 1000 cycles...  done! 
  Now running for 50000 cycles...
 Noxim simulation completed. (51000 cycles executed)
 
-% Total received packets: 0
-% Total received flits: 0
-% Received/Ideal flits Ratio: 0
-% Average wireless utilization: nan
-% Global average delay (cycles): nan
-% Max delay (cycles): -1
-% Network throughput (flits/cycle): 0
-% Average IP throughput (flits/cycle/IP): 0
-% Total energy (J): 0.000126235
-% 	Dynamic energy (J): 1.17035e-06
-% 	Static energy (J): 0.000125064
+% Total received packets: 43350
+% Total received flits: 259988
+% Received/Ideal flits Ratio: 1.00304
+% Average wireless utilization: 0
+% Global average delay (cycles): 75.0796
+% Max delay (cycles): 960
+% Network throughput (flits/cycle): 5.77751
+% Average IP throughput (flits/cycle/IP): 0.180547
+% Total energy (J): 0.000940231
+% 	Dynamic energy (J): 2.65393e-05
+% 	Static energy (J): 0.000913692
 ../noxim/noxim/bin/noxim--------------------------------------------------
 
 ------------RUNNING FOR PIR = 0.050------------
@@ -121,21 +121,21 @@ Noxim simulation completed. (51000 cycles executed)
 Catania V., Mineo A., Monteleone S., Palesi M., and Patti D. (2016) Cycle-Accurate Network on Chip Simulation with Noxim. ACM Trans. Model. Comput. Simul. 27, 1, Article 4 (August 2016), 25 pages. DOI: https://doi.org/10.1145/2953878
 
 
-Loading configuration from file "small_world.yaml"... Done
+Loading configuration from file "double_buffers.yaml"... Done
 Loading power configurations from file "power.yaml"... Done
 Reset for 1000 cycles...  done! 
  Now running for 50000 cycles...
 Noxim simulation completed. (51000 cycles executed)
 
-% Total received packets: 0
-% Total received flits: 0
-% Received/Ideal flits Ratio: 0
-% Average wireless utilization: nan
-% Global average delay (cycles): nan
-% Max delay (cycles): -1
-% Network throughput (flits/cycle): 0
-% Average IP throughput (flits/cycle/IP): 0
-% Total energy (J): 0.000125932
-% 	Dynamic energy (J): 8.67419e-07
-% 	Static energy (J): 0.000125064
+% Total received packets: 45166
+% Total received flits: 271404
+% Received/Ideal flits Ratio: 0.62825
+% Average wireless utilization: 0
+% Global average delay (cycles): 9384.73
+% Max delay (cycles): 28759
+% Network throughput (flits/cycle): 6.0312
+% Average IP throughput (flits/cycle/IP): 0.188475
+% Total energy (J): 0.000941936
+% 	Dynamic energy (J): 2.82444e-05
+% 	Static energy (J): 0.000913692
 ../noxim/noxim/bin/noxim

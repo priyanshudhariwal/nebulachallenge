@@ -16,7 +16,7 @@ topology: MESH
 mesh_dim_x: 8
 mesh_dim_y: 4
 # number of flits for each router buffer
-buffer_depth: 8
+buffer_depth: 16
 # size of flits, in bits
 flit_size: 128
 # lenght in mm of router to hub connection
