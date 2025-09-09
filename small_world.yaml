@@ -18,7 +18,7 @@ mesh_dim_y: 4
 # number of flits for each router buffer
 buffer_depth: 8
 # size of flits, in bits
-flit_size: 32
+flit_size: 128
 # lenght in mm of router to hub connection
 r2h_link_length: 2.0
 # lenght in mm of router to router connection
@@ -37,7 +37,7 @@ n_virtual_channels: 1
 # Each of the above labels should match a corresponding
 # implementation in the routingAlgorithms source code directory
 routing_algorithm: TABLE_BASED
-routing_table_filename: "/Users/priyanshu/Documents/nebula/routing_table_triplet.txt"
+routing_table_filename: "/Users/priyanshu/Documents/nebula/routing_table_new.txt"
 
 # Routing specific parameters
 #   dyad_threshold: double
@@ -123,7 +123,7 @@ simulation_time: 50000
 # collect stats after a given number of cycles
 stats_warm_up_time: 5000
 # power breakdown, nodes communication details
-detailed: true
+detailed: false
 # stop after a given amount of load has been processed
 max_volume_to_be_drained: 0
 show_buffer_stats: false

@@ -123,7 +123,7 @@ simulation_time: 50000
 # collect stats after a given number of cycles
 stats_warm_up_time: 5000
 # power breakdown, nodes communication details
-detailed: true
+detailed: false
 # stop after a given amount of load has been processed
 max_volume_to_be_drained: 0
 show_buffer_stats: false
